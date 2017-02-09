@@ -6,12 +6,25 @@
         <title>Beoordelingenlijst</title>
         <style>
 			html, body{
-				width: 98%;
+				width: 99%;
 				height: 98%;
 			}
 			
 			.resultaat{
-				
+				width: 44%;
+				height: 44%;
+				border: 1px solid black;
+				float: left;
+				overflow: auto;
+			}
+			
+			.opdrachten{
+				width: 55.7%;
+				height: 44%;
+				border: 1px solid black;
+				float: right;
+				border-left: none;
+				overflow: auto;
 			}
         </style>
 		<script src="beoordelingenlijst.js"></script>
@@ -21,8 +34,18 @@
 		<button class="button" onclick="geefCijfer()">Toevoegen</button><br>
 		
 		<input required type="number" id="cijfer2" placeholder="Voer cijfer in"> 
-		<button class="button" onclick="geefCijfer2()">Toevoegen</button>
+		<button class="button" onclick="geefCijfer2()">Toevoegen</button><br>
 		
 		<div class="resultaat" id="resultaat"></div>
+		<div class="opdrachten" id="opdrachten">
+			13.	Waarom is het niet handig om dezelfde code op meerdere plekken te hebben? <br>
+			<b>Stel je hebt veel meer code en tientallen functies. Je moet dan een dingetje veranderen in iedere Functie, dat
+			gaat op een gegeven moment mis omdat je een foutje maakt of iets vergeet.</b> <br>
+			14.	Hoe kun je dit oplossen? <br>
+			<b>Geen idee hoe ik het uitleg. Het is een soort manier waardoor je heel weinig code hebt en je op een hele makkelijke manier wijzigen kan doorvoeren, die die wijziging vervolgens in ieder div doorvoert.</b> <br>
+			15.	Refactor je code, zodat het programma blijft werken en er geen dubbele code meer voorkomt. <br>
+			<b>Ik heb gekeken bij Wail, ik snap de code, maar ik heb geen idee hoe ik deze
+			zelf maak. Vandaar dat ik mijn code op deze manier hou.</b>
+		</div>
     </body>
 </html>

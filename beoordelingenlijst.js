@@ -7,8 +7,10 @@ function geefCijfer(){
 		document.getElementById("resultaat").innerHTML += "Het cijfer is " + cijfer_totaal + " en is dus matig. <br>";
 	} else if(cijfer_totaal >59 && cijfer_totaal < 75){
 		document.getElementById("resultaat").innerHTML += "Het cijfer is " + cijfer_totaal + " en is dus voldoende. <br>";
-	} else if(cijfer_totaal >74 && cijfer_totaal < 101){
+	} else if(cijfer_totaal >74 && cijfer_totaal < 90){
 		document.getElementById("resultaat").innerHTML += "Het cijfer is " + cijfer_totaal + " en is dus goed. <br>";
+	} else if(cijfer_totaal > 89 && cijfer_totaal < 101){
+		document.getElementById("resultaat").innerHTML += "Het cijfer is " + cijfer_totaal + " en is dus zeer goed. <br>";
 	} else{
 		document.getElementById("resultaat").innerHTML += "Dat cijfer kan niet gegeven worden!!! <br>";
 	}
@@ -23,8 +25,10 @@ function geefCijfer2(){
 		document.getElementById("resultaat").innerHTML += "De beoordeling is matig, want het cijfer is " + cijfer_totaal2 + "<br>";
 	} else if(cijfer_totaal2 >59 && cijfer_totaal2 < 75){
 		document.getElementById("resultaat").innerHTML += "De beoordeling is voldoende, want het cijfer is " + cijfer_totaal2 + "<br>";
-	} else if(cijfer_totaal2 >74 && cijfer_totaal2 < 101){
+	} else if(cijfer_totaal2 >74 && cijfer_totaal2 < 90){
 		document.getElementById("resultaat").innerHTML += "De beoordeling is goed, want het cijfer is " + cijfer_totaal2 + "<br>";
+	} else if(cijfer_totaal2 >89 && cijfer_totaal2 < 101){
+		document.getElementById("resultaat").innerHTML += "De beoordeling is zeer goed, want het cijfer is " + cijfer_totaal2 + "<br>";
 	} else{
 		document.getElementById("resultaat").innerHTML += "Dat cijfer kan niet gegeven worden!!! <br>";
 	}
