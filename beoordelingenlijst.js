@@ -1,3 +1,13 @@
+/* 
+
+Tips:
+	- Niet gewerkt met parameters.
+	- Te veel lijne code, want niet gewerkt met parameters.
+Tops:
+	- Het werkt gewoon als hoe het hoort te werken.
+	- Er zitten geen fouten in.
+*/
+
 function geefCijfer(){
 	var cijfer_totaal = document.getElementById("cijfer").value;
 	
